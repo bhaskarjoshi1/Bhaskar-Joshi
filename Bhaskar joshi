@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhaskar's Personal Webpage</title>
+    <title>Bhaskar Joshi - YouTube Channel</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
             color: #333;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header {
             background-color: #ff6347;
@@ -19,30 +20,28 @@
             padding: 1em 0;
         }
         nav {
-            display: flex;
-            justify-content: center;
             background-color: #ffa07a;
-            padding: 1em 0;
+            text-align: center;
+            padding: 0.5em 0;
         }
         nav a {
             color: white;
-            margin: 0 1em;
             text-decoration: none;
+            padding: 0 1em;
+            font-weight: bold;
         }
         .content {
             padding: 2em;
+            max-width: 800px;
+            margin: auto;
         }
         .section {
             margin-bottom: 2em;
         }
-        footer {
-            background-color: #ff6347;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .section h2 {
+            color: #ff6347;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 0.5em;
         }
         .portfolio-item {
             margin-bottom: 1em;
@@ -50,12 +49,22 @@
         .portfolio-item a {
             color: #ff6347;
             text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bhaskar's Personal Webpage</h1>
+        <h1>Bhaskar Joshi - YouTube Channel</h1>
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -63,26 +72,26 @@
         <a href="#contact">Contact</a>
     </nav>
     <div class="content">
-        <div id="about" class="section">
+        <section id="about" class="section">
             <h2>About Me</h2>
-            <p>Hi, I'm Bhaskar! I'm a YouTuber and gamer. I specialize in thumbnail design, intro maker, and outro maker. Check out my YouTube channel to see my work!</p>
-        </div>
-        <div id="portfolio" class="section">
+            <p>Hi, I'm Bhaskar Joshi, a passionate gamer and a new trending YouTuber. Welcome to my YouTube channel where I share my gaming adventures!</p>
+        </section>
+        <section id="portfolio" class="section">
             <h2>Portfolio</h2>
             <div class="portfolio-item">
-                <a href="https://youtu.be/Dd7vSnpS7sY?si=S1x7cq0_u7DJwyrf" target="_blank">Video 1</a>
+                <a href="https://youtu.be/Dd7vSnpS7sY?si=rUEpjYb8Ojr7vbEO" target="_blank">Watch Video 1</a>
             </div>
             <div class="portfolio-item">
-                <a href="https://youtu.be/g-BUeKqRWVE?si=DTlQI1zZ4M94ZvUi" target="_blank">Video 2</a>
+                <a href="https://youtu.be/g-BUeKqRWVE?si=G4-ucuqLKa0qjI5s" target="_blank">Watch Video 2</a>
             </div>
-        </div>
-        <div id="contact" class="section">
+        </section>
+        <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>You can reach me via my <a href="https://youtu.be/OA5kX0iWvzM?si=ApPylNHaZHlk46hB" target="_blank">YouTube channel</a>.</p>
-        </div>
+            <p>You can connect with me via <a href="https://youtu.be/OA5kX0iWvzM?si=di6vk4lDan91hDUN" target="_blank">my YouTube channel</a>.</p>
+        </section>
     </div>
     <footer>
-        <p>&copy; 2024 Bhaskar's Personal Webpage</p>
+        <p>&copy; 2024 Bhaskar Joshi - YouTube Channel</p>
     </footer>
 </body>
 </html>
